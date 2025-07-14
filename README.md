@@ -11,6 +11,8 @@ The replication files are provided in a chronological order
     -   Downloads the Fama-French data from Keneth French's website and saves it as an RDS file.
 -   01_model_fitting.R
     -   Fits all time series models and saves the forecasts as an RDS file.
+-   02_model_based_portfolios_and_transaction_costs.R
+    -   Generates model-based portfolio weights
 -   03_generetae_loss_based_forecasts_per_stock_quintiles.R
     -   Generates the loss-based forecasts per stock quintiles and saves them as an RDS file.
 -   04_oracle_portfolio_deciles_scaled.R
