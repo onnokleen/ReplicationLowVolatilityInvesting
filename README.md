@@ -1,7 +1,7 @@
 # Replication files for the paper "Volatility forecasting for low-volatility investing"
-# Author: Onno Kleen
-# 14.07.2025
-# Available via https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4158925
+Author: Onno Kleen
+Date: 14.07.2025
+Available via https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4158925
 
 ### General remarks
 
