@@ -1,0 +1,52 @@
+\begin{tabular}{llccccccccccccccccccccccccc} 
+\toprule 
+Model & & $LR^j$ & Mean & Med & $Rk^j = 1$ & $Rk^j \leq 4$ \\\midrule 
+\multicolumn{4}{l}{\textbf{Panel A: Model-based forecasts}} \\ \midrule 
+\multicolumn{2}{l}{12m-$\text{RV}^d$} & --- & --- & --- & 0.00 & 0.01\\ 
+\multicolumn{2}{l}{4y-$\text{RV}^d$} & 0.14 & 1.45 & 1.32 & 0.00 & 0.00\\ 
+\multicolumn{2}{l}{6m-$\text{RV}^d$} & 0.79 & 0.96 & 0.91 & 0.00 & 0.01\\ 
+\multicolumn{2}{l}{1m-$\text{RV}^d$} & 0.63 & 1.12 & 0.87 & 0.00 & 0.02\\ 
+\midrule 
+\multicolumn{2}{l}{RM monthly, 12 months} & 0.91 & 0.98 & 0.97 & 0.00 & 0.01\\ 
+\multicolumn{2}{l}{RM monthly, 6 months} & 0.81 & 0.95 & 0.89 & 0.00 & 0.01\\ 
+\multicolumn{2}{l}{RM daily, 12 months} & 0.89 & 0.83 & 0.78 & 0.00 & 0.05\\ 
+\multicolumn{2}{l}{RM daily, 6 months} & 0.88 & 0.85 & 0.78 & 0.01 & 0.05\\ 
+\midrule 
+\multicolumn{2}{l}{GJR-GARCH} & 0.82 & 0.86 & 0.79 & 0.02 & 0.04\\ 
+\multicolumn{2}{l}{Panel GJR-GARCH} & 0.69 & 0.96 & 0.89 & 0.00 & 0.01\\ 
+\multicolumn{2}{l}{Factor GARCH} & 0.85 & 0.74 & 0.67 & 0.05 & 0.22\\ 
+\multicolumn{2}{l}{Factor GARCH-VIX} & 0.90 & 0.69 & 0.64 & 0.17 & 0.32\\ 
+\multicolumn{2}{l}{Factor GARCH-$\Delta$Hous} & 0.91 & 0.71 & 0.66 & 0.01 & 0.21\\ 
+\multicolumn{2}{l}{Factor GARCH-TS} & 0.90 & 0.72 & 0.67 & 0.00 & 0.13\\ 
+\multicolumn{2}{l}{MEM} & 0.03 & 5.92 & 5.09 & 0.00 & 0.01\\ 
+\multicolumn{2}{l}{Panel MEM} & 0.02 & 6.02 & 5.49 & 0.00 & 0.00\\ 
+\midrule 
+\multicolumn{2}{l}{R-HAR} & 0.94 & 0.62 & 0.58 & 0.08 & 0.25\\ 
+\multicolumn{2}{l}{HAR} & 0.88 & 0.68 & 0.61 & 0.01 & 0.12\\ 
+\multicolumn{2}{l}{HAR-LR} & 0.66 & 1.40 & 0.80 & 0.00 & 0.07\\ 
+\multicolumn{2}{l}{HAR-SPX} & 0.80 & 0.74 & 0.61 & 0.06 & 0.24\\ 
+\multicolumn{2}{l}{HAR-SPX-LR} & 0.66 & 1.46 & 0.78 & 0.01 & 0.08\\ 
+\multicolumn{2}{l}{HAR-VIX} & 0.85 & 0.70 & 0.57 & 0.09 & 0.37\\ 
+\multicolumn{2}{l}{HAR-VIX-LR} & 0.63 & 1.56 & 0.80 & 0.02 & 0.11\\ 
+\multicolumn{2}{l}{Panel HAR} & 0.96 & 0.58 & 0.55 & 0.01 & 0.28\\ 
+\multicolumn{2}{l}{Panel HAR-LR} & 0.97 & 0.55 & 0.52 & 0.24 & 0.58\\ 
+\midrule 
+\multicolumn{2}{l}{Log-HAR} & 0.97 & 0.54 & 0.53 & 0.17 & 0.50\\ 
+\midrule 
+\multicolumn{2}{l}{MIDAS} & 0.96 & 0.60 & 0.58 & 0.01 & 0.16\\ 
+\multicolumn{2}{l}{Panel MIDAS} & 0.94 & 0.62 & 0.58 & 0.02 & 0.13\\ 
+\midrule 
+\multicolumn{7}{l}{\textbf{Panel B: Combined forecasts---simple average ($\eta = 0$)}} \\ \midrule 
+ $\eta = 0$ &  & 0.99 & 0.59 & 0.56 & --- & --- \\ 
+\midrule 
+\multicolumn{4}{l}{\textbf{Panel C: Combined forecasts $\delta = 12$}} \\ \midrule 
+ $\eta = 1/2$  & & 0.99 & 0.55 & 0.52 & --- & --- \\ 
+ $\eta = 1$  & & 0.99 & 0.52 & 0.50 & --- & --- \\ 
+ $\eta = \infty$ & & 0.94 & 0.59 & 0.52 & --- & --- \\ 
+\midrule 
+\multicolumn{4}{l}{\textbf{Panel D: Combined forecasts $\delta = 48$}} \\ \midrule 
+ $\eta = 1/2$  & & 0.99 & 0.56 & 0.53 & --- & --- \\ 
+ $\eta = 1$  & & 0.99 & 0.54 & 0.52 & --- & --- \\ 
+ $\eta = \infty$ & & 0.91 & 0.64 & 0.55 & --- & --- \\ 
+\bottomrule 
+\end{tabular}

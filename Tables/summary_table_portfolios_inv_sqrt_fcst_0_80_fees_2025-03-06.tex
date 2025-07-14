@@ -1,0 +1,51 @@
+\begin{tabular}{llllllllllllllllllllllllllllllllllllll} 
+\toprule 
+ & \multicolumn{3}{c}{Without TC} & & \multicolumn{3}{c}{With TC} \\ 
+ \cmidrule{2-4} \cmidrule{6-8} 
+ & TE & $\Delta_1$ & $\Delta_{10}$ &  & TE & $\Delta_1$ & $\Delta_{10}$\\\midrule 
+\multicolumn{7}{l}{\textbf{Panel A: Portfolios based on individual forecasts}}\\ \midrule 
+12m-$\text{RV}^d$ & 0.51 & 2.38 & 3.96 & & 0.51 & 2.02 & 3.60\\ 
+4y-$\text{RV}^d$ & 0.61 & 2.24 & 4.10 & & 0.61 & 1.85 & 3.70\\ 
+6m-$\text{RV}^d$ & 0.46 & 2.16 & 3.62 & & 0.46 & 1.88 & 3.33\\ 
+1m-$\text{RV}^d$ & 0.40 & 1.98 & 3.06 & & 0.40 & 2.38 & 3.45\\ 
+\midrule 
+RM monthly, 12 months & 0.50 & 2.34 & 3.93 & & 0.51 & 1.99 & 3.57\\ 
+RM monthly, 6 months & 0.46 & 2.17 & 3.62 & & 0.46 & 1.88 & 3.34\\ 
+RM daily, 12 months & 0.44 & 2.19 & 3.61 & & 0.44 & 2.07 & 3.50\\ 
+RM daily, 6 months & 0.42 & 2.18 & 3.54 & & 0.43 & 2.07 & 3.43\\ 
+\midrule 
+GJR-GARCH & 0.44 & 2.08 & 3.41 & & 0.44 & 1.98 & 3.32\\ 
+Panel GJR-GARCH & 0.49 & 2.26 & 3.71 & & 0.49 & 2.08 & 3.54\\ 
+Factor GARCH & 0.52 & 2.07 & 3.74 & & 0.52 & 1.85 & 3.51\\ 
+Factor GARCH-VIX & 0.54 & 2.08 & 3.88 & & 0.54 & 1.88 & 3.67\\ 
+Factor GARCH-$\Delta$Hous & 0.55 & 2.03 & 3.87 & & 0.55 & 1.83 & 3.66\\ 
+Factor GARCH-TS & 0.56 & 2.04 & 3.91 & & 0.56 & 1.84 & 3.70\\ 
+MEM & 0.48 & 1.84 & 3.30 & & 0.49 & 1.73 & 3.20\\ 
+Panel MEM & 0.43 & 1.94 & 3.29 & & 0.43 & 1.79 & 3.14\\ 
+\midrule 
+R-HAR & 0.35 & 1.99 & 2.98 & & 0.35 & 1.95 & 2.95\\ 
+HAR & 0.42 & 2.04 & 3.27 & & 0.43 & 1.87 & 3.11\\ 
+HAR-LR & 0.44 & 1.91 & 3.17 & & 0.45 & 1.80 & 3.08\\ 
+HAR-SPX & 0.43 & 2.14 & 3.44 & & 0.44 & 1.97 & 3.28\\ 
+HAR-SPX-LR & 0.45 & 1.97 & 3.11 & & 0.46 & 1.87 & 3.03\\ 
+HAR-VIX & 0.43 & 2.01 & 3.28 & & 0.44 & 1.82 & 3.08\\ 
+HAR-VIX-LR & 0.48 & 1.87 & 3.03 & & 0.48 & 1.77 & 2.93\\ 
+Panel HAR & 0.42 & 1.95 & 3.30 & & 0.42 & 1.73 & 3.08\\ 
+Panel HAR-LR & 0.39 & 1.83 & 3.03 & & 0.39 & 1.58 & 2.78\\ 
+\midrule 
+Log-HAR & 0.37 & 1.99 & 3.08 & & 0.37 & 1.85 & 2.94\\ 
+\midrule 
+MIDAS & 0.41 & 1.86 & 3.22 & & 0.42 & 1.66 & 3.03\\ 
+Panel MIDAS & 0.41 & 1.92 & 3.23 & & 0.42 & 1.69 & 3.01\\ 
+\midrule 
+\multicolumn{7}{l}{\textbf{Panel B: Portfolio based on averaged forecasts}} \\\midrule$\eta = 0$  & 0.43 & 2.07 & 3.44 & & 0.43 & 1.81 & 3.18\\ 
+\midrule 
+\multicolumn{7}{l}{\textbf{Panel C: Portfolios based on combined forecasts $\delta = 12$}} \\\midrule$\eta = 1/2$ & 0.41 & 2.07 & 3.40 & & 0.41 & 1.81 & 3.14\\ 
+$\eta = 1$ & 0.40 & 2.00 & 3.33 & & 0.41 & 1.75 & 3.08\\ 
+$\eta = \infty$ & 0.36 & 1.98 & 2.99 & & 0.36 & 1.90 & 2.92\\ 
+\midrule 
+\multicolumn{7}{l}{\textbf{Panel D: Portfolios based on combined forecasts $\delta = 48$}} \\\midrule$\eta = 1/2$ & 0.42 & 2.06 & 3.40 & & 0.42 & 1.80 & 3.14\\ 
+$\eta = 1$ & 0.41 & 2.00 & 3.33 & & 0.41 & 1.75 & 3.08\\ 
+$\eta = \infty$ & 0.34 & 1.88 & 2.82 & & 0.35 & 1.80 & 2.74\\ 
+\bottomrule 
+\end{tabular}

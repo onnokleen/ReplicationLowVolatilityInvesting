@@ -1,0 +1,49 @@
+\begin{tabular}{lllccclccccccccccccc} 
+\toprule 
+ & & \multicolumn{4}{c}{WAD} & & \multicolumn{1}{c}{TO} & \multicolumn{1}{c}{TC}\\\cmidrule{3-6} \cmidrule{8-9} 
+ & & Mean & In-Post-Hoc & Not-Post-hoc & Max & & --- & --- \\\midrule 
+\multicolumn{2}{l}{Post-hoc} & --- & --- & --- & --- & & 24.93 & 4.92 \\ \midrule\multicolumn{5}{l}{\textbf{Panel A: Model-based portfolios}}\\ \midrule 
+\multicolumn{2}{l}{12m-$\text{RV}^d$} & 33.44 & 26.70 & 6.74 & 53.35 & & 9.99 & 2.00\\ 
+\multicolumn{2}{l}{4y-$\text{RV}^d$} & 35.96 & 27.98 & 7.99 & 54.35 & & 8.34 & 1.69\\ 
+\multicolumn{2}{l}{6m-$\text{RV}^d$} & 33.41 & 26.61 & 6.80 & 49.52 & & 13.07 & 2.58\\ 
+\multicolumn{2}{l}{1m-$\text{RV}^d$} & 37.25 & 29.50 & 7.75 & 47.95 & & 42.89 & 8.23\\ 
+\midrule 
+\multicolumn{2}{l}{RM monthly, 12 months} & 33.27 & 26.59 & 6.68 & 52.87 & & 10.00 & 2.00\\ 
+\multicolumn{2}{l}{RM monthly, 6 months} & 33.33 & 26.55 & 6.77 & 49.42 & & 13.09 & 2.58\\ 
+\multicolumn{2}{l}{RM daily, 12 months} & 33.84 & 26.95 & 6.88 & 47.89 & & 20.09 & 3.91\\ 
+\multicolumn{2}{l}{RM daily, 6 months} & 33.77 & 26.88 & 6.89 & 47.82 & & 20.58 & 3.98\\ 
+\midrule 
+\multicolumn{2}{l}{GJR-GARCH} & 34.29 & 27.15 & 7.14 & 50.93 & & 20.14 & 4.16\\ 
+\multicolumn{2}{l}{Panel GJR-GARCH} & 34.70 & 27.38 & 7.32 & 52.73 & & 16.46 & 3.48\\ 
+\multicolumn{2}{l}{Factor GARCH} & 34.56 & 27.34 & 7.22 & 53.90 & & 14.68 & 3.10\\ 
+\multicolumn{2}{l}{Factor GARCH-VIX} & 35.71 & 28.36 & 7.35 & 53.13 & & 15.31 & 3.22\\ 
+\multicolumn{2}{l}{Factor GARCH-$\Delta$Hous} & 35.72 & 28.34 & 7.38 & 53.56 & & 15.45 & 3.24\\ 
+\multicolumn{2}{l}{Factor GARCH-TS} & 35.74 & 28.35 & 7.38 & 53.35 & & 15.41 & 3.24\\ 
+\multicolumn{2}{l}{MEM} & 31.55 & 25.11 & 6.44 & 48.28 & & 19.46 & 4.00\\ 
+\multicolumn{2}{l}{Panel MEM} & 26.62 & 21.02 & 5.60 & 44.88 & & 17.58 & 3.71\\ 
+\midrule 
+\multicolumn{2}{l}{R-HAR} & 20.31 & 16.05 & 4.26 & 40.11 & & 23.80 & 4.65\\ 
+\multicolumn{2}{l}{HAR} & 23.21 & 18.57 & 4.64 & 99.74 & & 16.72 & 3.52\\ 
+\multicolumn{2}{l}{HAR-LR} & 24.97 & 20.06 & 4.92 & 92.02 & & 18.65 & 4.07\\ 
+\multicolumn{2}{l}{HAR-SPX} & 24.55 & 19.63 & 4.93 & 97.37 & & 16.63 & 3.52\\ 
+\multicolumn{2}{l}{HAR-SPX-LR} & 26.74 & 21.45 & 5.28 & 99.85 & & 19.17 & 4.17\\ 
+\multicolumn{2}{l}{HAR-VIX} & 24.81 & 19.69 & 5.12 & 116.16 & & 15.78 & 3.33\\ 
+\multicolumn{2}{l}{HAR-VIX-LR} & 27.01 & 21.52 & 5.48 & 115.00 & & 18.66 & 4.09\\ 
+\multicolumn{2}{l}{Panel HAR} & 22.39 & 17.84 & 4.56 & 36.85 & & 15.02 & 3.08\\ 
+\multicolumn{2}{l}{Panel HAR-LR} & 21.82 & 17.43 & 4.39 & 36.09 & & 14.10 & 2.86\\ 
+\midrule 
+\multicolumn{2}{l}{Log-HAR} & 19.75 & 15.62 & 4.14 & 37.41 & & 18.96 & 3.81\\ 
+\midrule 
+\multicolumn{2}{l}{MIDAS} & 22.69 & 18.11 & 4.58 & 37.84 & & 15.72 & 3.29\\ 
+\multicolumn{2}{l}{Panel MIDAS} & 23.11 & 18.34 & 4.77 & 39.15 & & 14.48 & 3.01\\ 
+\midrule 
+\multicolumn{5}{l}{\textbf{Panel B: Average forecast}} \\\midrule$\eta = 0$ &  & 26.25 & 21.17 & 5.09 & 42.90 & & 13.67 & 2.78\\ 
+\midrule 
+\multicolumn{5}{l}{\textbf{Panel C: Loss-based portfolios $\delta = 12$}} \\\midrule$\eta = 1/2$ &  & 24.31 & 19.59 & 4.71 & 41.76 & & 13.84 & 2.82\\ 
+$\eta = 1$ &  & 23.13 & 18.61 & 4.52 & 40.71 & & 14.22 & 2.90\\ 
+$\eta = \infty$ &  & 23.37 & 18.64 & 4.73 & 79.91 & & 21.02 & 4.26\\ 
+\midrule\multicolumn{5}{l}{\textbf{Panel D: Loss-based portfolios $\delta = 48$}} \\\midrule$\eta = 1/2$ &  & 24.56 & 19.78 & 4.79 & 41.81 & & 13.72 & 2.80\\ 
+$\eta = 1$ &  & 23.35 & 18.75 & 4.60 & 40.80 & & 13.95 & 2.85\\ 
+$\eta = \infty$ &  & 23.47 & 18.65 & 4.82 & 97.33 & & 21.02 & 4.26\\ 
+\bottomrule 
+\end{tabular}
