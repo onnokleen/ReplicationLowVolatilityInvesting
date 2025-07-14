@@ -54,7 +54,7 @@ The different datasets needed can be found here:
     -   rv_22_sq_overnight (average 22-day RV)
     -   rv_66_sq_overnight (average 66-day RV)
     -   rv_132_sq_overnight (average 132-day RV)
-    -   vix (VIX index, can be obtained from Cboe website)
+    -   vix (VIX index, can be obtained from Cboe website, see data/VIX_history.csv below)
     -   mkt_rf_log (market excess return, also in df_fama_french_daily.rds)
     -   rf_log (log risk free rate, also in df_fama_french_daily.rds)
 -   data/df_fama_french_daily.rds
