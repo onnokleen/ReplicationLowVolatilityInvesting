@@ -34,7 +34,7 @@ The script '_load_packages.R' is a convenience script to load all packages neede
 The different datasets needed can be found here:
 
 -   data/allmonth.xls
-    -   Needs a "Date" column and a "SREAD" column
+    -   Needs a "Date" column and a "SPREAD" column
     -   Can be downloaded here: <https://www.newyorkfed.org/medialibrary/media/research/capital_markets/allmonth.xls>
 -   data/Low_vola_indices.xlsx (proprietary, downloaded via Bloomberg terminal)
     -   Needs a "Dates" column and a column "SP5LVTUT Index" which holds the values for the low SP5LVTUT volatility index.
